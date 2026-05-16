@@ -4,7 +4,6 @@
   font-style: normal;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -36,8 +35,9 @@ body {
     min-height: calc(100dvh - 100px);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: var(--spacing-md);
+    justify-content: space-between;
+    gap: var(--spacing-vsm);
+    margin-inline: 120px;
 }
 
 .categoria {
@@ -146,3 +146,40 @@ body {
     color: var(--color-grey);
     padding-bottom: 30px;
 }
+
+
+
+
+
+
+.sobre {
+    height: 100dvh;
+    width: 100%;
+    padding: 20px;
+}
+
+.sobre-cabecalho {
+    min-height: calc(100dvh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-vsm);
+    margin-inline: 120px;
+}
+
+.sobre-texto {
+    flex: 1;
+    max-width: 45%;
+}
+
+.sobre-texto p {
+    font-size: 30px;
+    color: var(--color-grey);
+    margin-bottom: var(--spacing-sm);
+}
+
+.sobre-texto h1 {
+    font-size: 70px;
+    margin: var(--spacing-sm) 0;
+}
+
